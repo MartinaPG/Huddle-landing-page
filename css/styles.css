@@ -308,6 +308,10 @@ footer span{
     display: flex;
     flex-direction: row;
   }
+  .sections h1{
+    text-align: left;
+    padding-left: 0;
+  }
   .sec-txt{
     text-align: left;
     padding:40px;
