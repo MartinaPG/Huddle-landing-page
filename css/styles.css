@@ -1,0 +1,387 @@
+*{
+  box-sizing: border-box;
+  font-family:'Open Sans', sans-serif;
+  font-weight: 400;
+}
+body{
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.header{
+  width: 100%;
+  background-color: hsl(193, 100%, 96%);
+  position: absolute;
+  z-index: 0;
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: hsl(192, 100%, 9%);
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0 15px;
+}
+p{
+  color: hsl(192, 100%, 9%);
+  font-size: 1.1rem;
+  line-height: 23px;
+  word-spacing: 2px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.bg-mobile{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.bg-desk{
+  display: none;
+}
+.head1{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px 60px;
+}
+.btn1{
+  padding: 5px 23px;
+  border: 0;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 1px 8px #d4d9d9;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+}
+.btn1:hover{
+  padding: 5px 23px;
+  border: 0;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 1px 8px #d4d9d9;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color:grey;
+}
+.logo{
+  width: 110px;
+  height: 16.5px;
+}
+.head2{
+  width: 100%;
+  padding: 10px 40px;
+  text-align: center;
+}
+.btn2{
+  margin-top: 50px;
+  padding: 12.5px 60px;
+  border: 0;
+  border-radius: 20px;
+  background-color: hsl(322, 100%, 66%);
+  box-shadow: 0 1px 5px #D3D3D3;
+  color: white;
+  mix-blend-mode: normal;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn2:hover{
+  padding: 12.5px 60px;
+  border: 0;
+  border-radius: 20px;
+  background-color:#ffb3e3;
+  transition: all 0.3s;
+  box-shadow: 0 1px 5px #D3D3D3;
+  color: white;
+  mix-blend-mode: normal;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.mockups{
+  width: 100%;
+  padding: 50px 40px 20px;
+
+}
+.section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 800px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+.sections{
+  width: 90%;
+  border-radius: 25px;
+  box-shadow:0 5px 10px #D3D3D3;
+  margin: 10px 0 40px;
+  background-color: white;
+}
+.sec-txt{
+  width: 100%;
+  text-align: center;
+  padding: 0 30px 20px;
+}
+.sec-txt p{
+color: hsl(208, 11%, 55%);
+font-size: 1rem;
+}
+.section-img{
+  width: 100%;
+  padding: 50px;
+}
+.last {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow:0 1px 5px #D3D3D3;
+}
+.last .btn2 {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.last h1 {
+  padding: 30px 0 15px;
+  font-size: 1.2rem;
+}
+footer{
+  background-color: hsl(192, 100%, 9%);
+  position: absolute;
+  margin-top: 2600px;
+  margin-bottom: 0;
+  width: 100%;
+  padding: 0;
+  padding-left: 10px;
+}
+footer .logo1{
+  margin-top: 150px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+}
+.icon{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding:10px 40px 5px 0;
+}
+
+footer p{
+color:white;
+width: 90%;
+display: inline-block;
+padding-top: 0;
+margin-top: 0;
+}
+.inf1 p:hover{
+  text-decoration: underline;
+
+}
+.inf2 p:hover{
+  text-decoration: underline;
+
+}
+.contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+.ic{
+  box-sizing: content-box;
+  width: 12px;
+  height: 12px;
+  fill:white;
+  padding: 8px;
+}
+.ic:hover{
+  box-sizing: content-box;
+  width: 12px;
+  height: 12px;
+  fill:hsl(322, 100%, 66%);
+  padding: 8px;
+}
+.ics{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:1px solid white;
+  border-radius: 100%;
+  width: auto;
+  margin: 0 5px;
+}
+.ics:hover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:1px solid hsl(322, 100%, 66%);
+  border-radius: 100%;
+  width: auto;
+  margin: 0 5px;
+}
+.copy{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0 40px;
+}
+.copyr{
+  width: 7px;
+  height: 7px;
+  fill:white;
+  margin: 0 3px;
+}
+footer span{
+  color:white;
+  font-size: 10px;
+  text-align: center;
+}
+@media only screen and (min-width:768px){
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+  .bg-mobile{
+    display: none;
+  }
+  .header{
+    align-items: center;
+    position: relative;
+    padding-bottom: 50px;
+  }
+  .bg-desk{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    display: inherit;
+    height: 100%;
+  }
+  p{
+    font-size: 0.9rem;
+  }
+
+  .head2{
+    box-sizing: border-box;
+    width: 50%;
+    display: inline-block;
+    padding: 0;
+    padding-left: 30px;
+    margin: 0;
+    text-align: left;
+  }
+  .head2 h1{
+    text-align: left;
+    padding:0;
+    padding-right: 50px;
+  }
+  .head3{
+    box-sizing: border-box;
+    width: 50%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    float: right;
+    padding-bottom: 0px;
+  }
+  .head2 .btn2{
+    float: left;
+    margin-top: 0;
+  }
+  .mockups{
+    padding-top: 0;
+  }
+  .section{
+    margin-top: 50px;
+    position: relative;
+  }
+  .sections{
+    display: flex;
+    flex-direction: row;
+  }
+  .sec-txt{
+    text-align: left;
+    padding:40px;
+  }
+  .section-img{
+    width: 45%;
+  }
+  .s1,.s3{
+    flex-direction: row-reverse;
+  }
+  .last{
+    margin-bottom: -100px;
+    flex-direction: column;
+  }
+footer{
+width: 100%;
+position: relative;
+margin-top: 0;
+padding-bottom: 50px;
+}
+footer .logo1{
+  width: 20%;
+}
+.icon img{
+  margin-right: 10px;
+}
+.i1,.i2,.i3{
+  width: 30%;
+  margin-left: 20px;
+}
+.info{
+  float: right;
+  position: absolute;
+  margin-left: 30px;
+  padding-left: 40%;
+  top: 40%;
+}
+.inf1{
+  float: left;
+}
+.inf2{
+  float: right;
+}
+
+.contact{
+  position: absolute;
+  margin-left: 30px;
+  padding-left: 70%;
+  top: 40%;
+}
+.copy{
+  position: absolute;
+  margin-left: 30px;
+  padding-left: 70%;
+  top: 80%;
+}
+.last{
+  width:70%;
+}
+}
+@media only screen and (min-width:1440px){
+  .head2 h1{
+    font-size: 3.5rem;
+  }
+  .head2 p,.btn2{
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+  .sections p{
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+  .sections h1{
+    font-size: 2.5rem;
+  }
+
+}
